@@ -1,0 +1,17 @@
+{
+  "name": "powershell-script-sharing-platform",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Theodore Redlon <redlontheo@gmail.com>",
+  "scripts": {
+    "dev": "concurrently \"cd app && npm run dev\" \"cd server && npm run dev\"",
+    "build": "concurrently \"cd app && npm run build\" \"cd server && npm run build\"",
+    "serve": "node server/dist/server.js",
+    "install:all": "concurrently \"cd app && npm install\" \"cd server && npm install\""
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
