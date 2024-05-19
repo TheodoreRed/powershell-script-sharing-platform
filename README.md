@@ -82,6 +82,7 @@ Here is an overview of the project structure:
 ```
 powershell-script-sharing-platform/
 ├── app/
+|   ├── dist/
 │   ├── public/
 │   ├── src/
 │   ├── index.html
