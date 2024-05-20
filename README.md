@@ -11,6 +11,7 @@ This documentation provides instructions for setting up and running the PowerShe
 5. [Serving the Built Project](#serving-the-built-project)
 6. [Project Structure](#project-structure)
 7. [Scripts Overview](#scripts-overview)
+8. [Live Demo](#live-demo)
 
 ## Prerequisites
 
@@ -121,3 +122,6 @@ powershell-script-sharing-platform/
 - `start`: Starts the backend server from the built files.
 - `build`: Builds the backend project using TypeScript.
 - `dev`: Starts the backend development server using Nodemon and ts-node.
+
+### Live Demo
+- [https://powershell-script-sharing-platform.onrender.com](https://powershell-script-sharing-platform.onrender.com)
