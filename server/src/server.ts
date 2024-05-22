@@ -15,6 +15,10 @@ app.use(express.static(path.join(__dirname, "../../app/dist")));
 app.use("/api/users", userRoutes);
 app.use("/api/scripts", scriptRoutes);
 
+app.use("/api/health", (_req, res) =>
+  res.json({ message: "Hello from the server!" })
+);
+
 app.get("*", (_req, res) => {
   res.sendFile(path.join(__dirname, "../../app/dist/index.html"));
 });
